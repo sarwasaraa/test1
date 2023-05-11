@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(237, 237, 237);
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 20px auto;
+}
+
+.card {
+    background-color: white;
+    flex-grow: 1;
+    flex-basis: 240px;
+    margin: 9px;
+    border-radius: 12px;
+    padding: 18px;
+    min-height: 150px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
